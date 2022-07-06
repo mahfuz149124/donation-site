@@ -89,11 +89,8 @@ p {
 
 .plans {
     display: flex;
-    text-align: left;
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 20px;
+    width: 100%;
+    margin: 5%;
 }
 
 .left-align {
@@ -103,12 +100,32 @@ p {
 
 #food {
     background-color: #4f9da61c;
+    margin: 15px;
+    padding: 75px 20px;
 }
 
 #shelter {
     background-color: #ff595934;
+    margin: 15px;
+    padding: 75px 20px;
 }
 
 #education {
     background-color: #FFF4D6;
+    margin: 15px;
+    padding: 20px;
+    padding: 75px 20px;
+}
+
+footer {
+    text-align: center;
+    margin: 0;
+    background-color: black;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+#humble {
+    font-family: 'Lobster', cursive;
+    color: #00cdac;
 }
