@@ -38,7 +38,7 @@ p {
     color: white;
 }
 
-.first-section {
+.top-banner {
     background-image: url(images/donation9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +46,7 @@ p {
     margin-bottom: 150px;
 }
 
-.second-section {
+.topics {
     margin: 50px 500px;
     margin-bottom: 150px;
 }
@@ -79,8 +79,14 @@ p {
 }
 
 #other-amount {
+    text-align: center;
+    border-style: none;
     border-bottom: 1px solid;
     border-color: #B3B3B3;
+    width: 100%;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
 }
 
 .third-section {
@@ -115,6 +121,20 @@ p {
     margin: 15px;
     padding: 20px;
     padding: 75px 20px;
+}
+
+#subscribe {
+    background-color: #ebe4e4;
+    border-style: none;
+    border-radius: 5px 0px 0px 5px;
+    padding: 22px;
+    margin-right: -10px;
+    width: 300px;
+}
+
+.background {
+    background-color: #FFF4D6;
+    padding: 75px;
 }
 
 footer {
