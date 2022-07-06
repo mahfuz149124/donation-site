@@ -26,6 +26,7 @@ p {
     font-size: 22px;
     font-family: 'Poppins', sans-serif;
     margin: 50px 75px;
+    color: #707070;
 }
 
 .donate-button {
@@ -45,11 +46,15 @@ p {
     margin-bottom: 150px;
 }
 
+.second-section {
+    margin: 50px 500px;
+    margin-bottom: 150px;
+}
+
 .center-align {
     text-align: center;
     margin-top: 0px;
 }
-
 
 .amount-option {
     display: flex;
@@ -61,14 +66,49 @@ p {
     background-color: #FAFAFA;
     color: #707070;
     border-radius: 5px;
-    margin: 10px;
-    padding: 30px;
+    margin: 20px;
+    padding: 40px 30px;
 }
 
 
 #colored-amount {
-    color: #FF5959;
+    color: #00cdac;
     border: 2px solid;
-    border-color: #FF5959;
-    background-color: #FFEEEE;
+    border-color: #00cdac;
+    background-color: #e4fffb;
+}
+
+#other-amount {
+    border-bottom: 1px solid;
+    border-color: #B3B3B3;
+}
+
+.third-section {
+    margin: 50px 200px;
+}
+
+.plans {
+    display: flex;
+    text-align: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+}
+
+.left-align {
+    text-align: left;
+    margin: 0%;
+}
+
+#food {
+    background-color: #4f9da61c;
+}
+
+#shelter {
+    background-color: #ff595934;
+}
+
+#education {
+    background-color: #FFF4D6;
 }
